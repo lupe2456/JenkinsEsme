@@ -13,7 +13,7 @@ public class helloController {
 
     @PostMapping
     public String hello2(){
-        return "Hello World 2";
+        return "Hello World 2 :)";
     }
 
 }
