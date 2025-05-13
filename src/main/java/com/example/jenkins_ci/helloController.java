@@ -1,6 +1,5 @@
 package com.example.jenkins_ci;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -11,12 +10,12 @@ public class helloController {
         return "Hello World";
     }
 
-    @PostMapping("/hello2")
+    @GetMapping("/hello2")
     public String hello2(){
         return "Hello World 2 :)";
     }
 
-    @PostMapping("/hello3")
+    @GetMapping("/hello3")
     public String hello3(){
         return "Hello World 3 :)";
     }
